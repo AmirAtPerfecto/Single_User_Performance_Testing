@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+	<test name="Test_SingleUserPerformanceTest_iPhoneX" enabled="true">
+		<parameter name="deviceName" value="143D71CAAC024D6E111E8E7FF460D4C8F0080E5A" />
+		<parameter name="platformName" value="iOS" />
+		<parameter name="platformVersion" value="11.0.1" />
+		<parameter name="manufacturer" value="Apple" />
+		<parameter name="model" value="iPhone-X" />
+		<parameter name="appID" value="" />
+
+
+		<classes>
+			<class name="main.java.newTest.NewTestClass"/>
+		</classes>
+	</test> <!-- Test -->
+ </suite> <!-- Suite -->
+
+
